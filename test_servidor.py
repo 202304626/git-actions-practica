@@ -34,6 +34,7 @@ class TestSimpleHTTPServer(unittest.TestCase):
 
         # Verifica que el contenido HTML esperado esté en la respuesta
         self.assertIn("<h1>Hola desde un servidor Python</h1>", response.text)
+        self.assertIn("<h1>Web del grupo Agile but Fragile</h1>", response.text)
         self.assertIn("<p>Este es un servidor simple que responde a solicitudes GET.</p>", response.text)
         self.assertIn("<img src='https://img.vavel.com/molina-1730992230085.jpg', width=400, height=300>", response.text)
 
@@ -41,3 +42,5 @@ class TestSimpleHTTPServer(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+

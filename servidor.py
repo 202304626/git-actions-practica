@@ -18,6 +18,9 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
         </head>
         <body>
             <h1>Hola desde un servidor Python</h1>
+
+            <h1>Web del grupo Agile but Fragile</h1>
+
             <p>Este es un servidor simple que responde a solicitudes GET.</p>
             <img src='https://img.vavel.com/molina-1730992230085.jpg', width=400, height=300>
         </body>
